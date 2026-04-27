@@ -56,14 +56,11 @@ It assigns a risk score and provides explanations and improvement suggestions.
 
 ---
 
-## Why This Project
+## Why this project
 
-This project demonstrates practical skills in:
+This project was built to simulate real-world AI evaluation workflows, focusing on identifying risks, inconsistencies, and quality issues in generated responses.
 
-- AI response evaluation
-- Risk detection in language models
-- NLP-based rule systems
-- Building interactive tools for analysis
+It reflects practical aspects of AI training and data annotation tasks, including structured evaluation, guideline-based reasoning, and explainability.
 
 ---
 
