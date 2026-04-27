@@ -1,22 +1,28 @@
 # AI Response Quality & Risk Evaluator
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-An interactive Python-based tool for evaluating AI-generated responses across multiple domains.
+An interactive tool for evaluating AI-generated responses with multi-domain risk scoring, explainability, and multilingual support.
 
-## Overview
+## Demo
 
-This project simulates real-world AI evaluation workflows used in training and improving language models.
+### Example evaluation
 
-It analyzes responses and detects potential issues such as:
+![App Screenshot](screenshot.png)
+
+## What it does
+
+This tool evaluates AI responses and detects potential risks such as:
 
 - Overconfidence
+- Unsafe medical advice
 - Missing follow-up questions
-- Medical risk and unsafe advice
+- Budget inconsistencies
 - Unsupported certainty in public information
-- Budget mismatches in hardware recommendations
-- Fitness safety and equipment issues
 - Language mismatch (Italian/English)
 
-The system assigns a risk score, identifies issues, and generates explainable outputs with improvement suggestions.
+It assigns a risk score and provides explanations and improvement suggestions.
 
 ---
 
@@ -67,8 +73,21 @@ This project demonstrates practical skills in:
 pip install streamlit pandas
 python -m streamlit run app.py
 ```
-## Demo
 
-### Example evaluation
+## Project Structure
 
-![App Screenshot](screenshot.png)
+ai-response-evaluator/
+│
+├── app.py # Streamlit interface (UI)
+├── evaluator.py # Core evaluation logic (rules, scoring, detection)
+├── README.md
+├── screenshot.png # App demo image
+└── data/
+└── examples.csv # Sample inputs for testing
+
+## Future Improvements
+
+- Add ML-based evaluation models
+- Expand multilingual support
+- Improve scoring system
+- Add batch evaluation
