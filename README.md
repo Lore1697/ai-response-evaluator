@@ -18,6 +18,12 @@ Then it generates:
 - Detected issues
 - Suggested improvements
 
+## Example Output
+
+| domain | risk_score | risk_level | issues |
+|--------|-----------|-----------|--------|
+| health | 85 | HIGH | Medical risk, Overconfidence |
+
 ## Technologies
 
 - Python
