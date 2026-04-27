@@ -76,14 +76,16 @@ python -m streamlit run app.py
 
 ## Project Structure
 
+```
 ai-response-evaluator/
 │
-├── app.py # Streamlit interface (UI)
-├── evaluator.py # Core evaluation logic (rules, scoring, detection)
+├── app.py              # Streamlit interface (UI)
+├── evaluator.py        # Core evaluation logic (rules, scoring, detection)
 ├── README.md
-├── screenshot.png # App demo image
+├── screenshot.png      # App demo image
 └── data/
-└── examples.csv # Sample inputs for testing
+    └── examples.csv    # Sample inputs for testing
+```
 
 ## Future Improvements
 
