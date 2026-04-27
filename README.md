@@ -66,3 +66,7 @@ This project demonstrates practical skills in:
 ```bash
 pip install streamlit pandas
 python -m streamlit run app.py
+
+## Demo
+
+![App Screenshot](screenshot.png)
